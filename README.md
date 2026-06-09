@@ -12,7 +12,6 @@ A production-ready RESTful API for a tour booking platform, built with **Node.js
 | Framework | Express.js |
 | Database | MongoDB + Mongoose ODM |
 | Authentication | JSON Web Tokens (JWT) |
-| Templating | Pug |
 | Email | Nodemailer |
 | Security | Helmet, HPP, express-mongo-sanitize, xss-clean, express-rate-limit |
 | Dev Tools | ESLint (Airbnb config), Prettier, ndb |
@@ -25,7 +24,6 @@ A production-ready RESTful API for a tour booking platform, built with **Node.js
 - **Advanced API Features** — Filtering, sorting, field selection, and pagination built into query handling
 - **Security Hardened** — Rate limiting, HTTP headers via Helmet, NoSQL injection prevention, XSS sanitization, and HTTP parameter pollution protection
 - **Password Management** — bcrypt hashing, forgot-password flow with tokenized email links
-- **Server-side Rendering** — Pug templates served for select views (e.g. email templates, booking confirmations)
 - **Environment-based Config** — Separate development and production modes with `.env` configuration
 - **Clean MVC Architecture** — Controllers, Models, Routes, and Utils are clearly separated
 
